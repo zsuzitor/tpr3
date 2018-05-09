@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<script src='js.js'></script>
+	<title>Document</title>
+</head>
+<body>
+	
+	<button onclick="add_row()">добавить строку</button>
+
+	<button onclick="add_column()">добавить столбец</button>
+	<hr>
+	<button onclick="del_row()">удалить строку</button>
+	<button onclick="del_column()">удалить столбец</button>
+	<hr>
+	<input type="file" onchange="loadFile(this.files)" id="file">
+	<input type="button" onclick="saveFile()" value="сохранить в файл">
+	<hr>
+
+			<input type="button" onclick="start_math()" value="Результат">
+<!-- <input type="button" onclick="start_math(1)" value="Метод предпочтений">
+<input type="button" onclick="start_math(2)" value="Метод рангов"> -->
+	<hr>
+	<div class="main_div">
+		<div id="input_numbers"></div>
+			<div id="div_output_name_column"></div>
+			<div class="div_inline_block" id="div_tabl_name">
+		</div>
+			<div class="div_inline_block" id="main_div_tabl">
+			
+		</div>
+		<div class="div_inline_block" id="div_for_math"></div>
+	</div>
+	
+	
+</body>
+</html>
+

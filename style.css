@@ -1,0 +1,77 @@
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+    width:100%;
+    height: 100%;
+   box-sizing: border-box;
+}
+.link_standart_for_div {
+    display: block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+    height: 100%; /* Высота на весь слой */
+    color: black; /* Цвет ссылки */
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin:0;
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.div_inline_block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.div_one_colum{
+width:70px;
+margin-left: 3px;
+
+}
+
+
+div.input_block,div.output_block{
+box-sizing: border-box;
+margin-top: 3px;
+ border:2px solid black;
+ height: 50px;
+ width:70px;
+ overflow: hidden;
+
+}
+div.output_block_name{
+height: 100px;
+
+}
+
+
+div.input_block_down{
+    margin-left: 3px;
+   
+}
+
+.one_inp_num{
+width: 100px;
+border: solid black 2px;
+
+}
+div.div_name_col_block{
+  margin-left: 3px;
+
+}
+div.main_div_for_name{
+    margin-left: 3px;
+}
+div.main_div{
+    width: 3000px;
+    overflow-x: auto;
+}
